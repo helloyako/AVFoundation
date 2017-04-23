@@ -15,6 +15,7 @@
 		A06C5BE11EAC510900DE4FB4 /* Chapter1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C5BE01EAC510900DE4FB4 /* Chapter1Tests.swift */; };
 		A06C5BEC1EAC510900DE4FB4 /* Chapter1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C5BEB1EAC510900DE4FB4 /* Chapter1UITests.swift */; };
 		A06C5BFD1EAC53C500DE4FB4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06C5BFC1EAC53C500DE4FB4 /* AVFoundation.framework */; };
+		A06C5BFF1EAC57EB00DE4FB4 /* THSpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C5BFE1EAC57EB00DE4FB4 /* THSpeechController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		A06C5BED1EAC510900DE4FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06C5BFA1EAC539000DE4FB4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		A06C5BFC1EAC53C500DE4FB4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A06C5BFE1EAC57EB00DE4FB4 /* THSpeechController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THSpeechController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A06C5BD21EAC510900DE4FB4 /* Assets.xcassets */,
 				A06C5BD41EAC510900DE4FB4 /* LaunchScreen.storyboard */,
 				A06C5BD71EAC510900DE4FB4 /* Info.plist */,
+				A06C5BFE1EAC57EB00DE4FB4 /* THSpeechController.swift */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06C5BCE1EAC510800DE4FB4 /* ViewController.swift in Sources */,
+				A06C5BFF1EAC57EB00DE4FB4 /* THSpeechController.swift in Sources */,
 				A06C5BCC1EAC510800DE4FB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

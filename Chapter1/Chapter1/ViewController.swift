@@ -14,9 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let synthesizer = AVSpeechSynthesizer()
-        let utterance = AVSpeechUtterance(string: "Hello World!")
-        synthesizer.speak(utterance)
+        
+        THSpeechController.shared.beginConversation()
     }
 
     override func didReceiveMemoryWarning() {
