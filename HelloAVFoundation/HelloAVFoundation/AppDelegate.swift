@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Chapter1
+//  HelloAVFoundation
 //
 //  Created by helloyako on 2017. 4. 23..
 //  Copyright © 2017년 helloyako. All rights reserved.

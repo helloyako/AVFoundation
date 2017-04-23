@@ -1,20 +1,18 @@
 //
 //  ViewController.swift
-//  Chapter1
+//  HelloAVFoundation
 //
 //  Created by helloyako on 2017. 4. 23..
 //  Copyright © 2017년 helloyako. All rights reserved.
 //
 
 import UIKit
-import AVFoundation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         THSpeechController.shared.beginConversation()
     }
 

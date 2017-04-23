@@ -1,6 +1,6 @@
 //
-//  Chapter1UITests.swift
-//  Chapter1UITests
+//  HelloAVFoundationUITests.swift
+//  HelloAVFoundationUITests
 //
 //  Created by helloyako on 2017. 4. 23..
 //  Copyright © 2017년 helloyako. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Chapter1UITests: XCTestCase {
+class HelloAVFoundationUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A06C5BC71EAC510800DE4FB4"
-               BuildableName = "Chapter1.app"
-               BlueprintName = "Chapter1"
-               ReferencedContainer = "container:Chapter1.xcodeproj">
+               BlueprintIdentifier = "A06C5C081EACAC2100DE4FB4"
+               BuildableName = "HelloAVFoundation.app"
+               BlueprintName = "HelloAVFoundation"
+               ReferencedContainer = "container:HelloAVFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A06C5BDB1EAC510900DE4FB4"
-               BuildableName = "Chapter1Tests.xctest"
-               BlueprintName = "Chapter1Tests"
-               ReferencedContainer = "container:Chapter1.xcodeproj">
+               BlueprintIdentifier = "A06C5C1C1EACAC2100DE4FB4"
+               BuildableName = "HelloAVFoundationTests.xctest"
+               BlueprintName = "HelloAVFoundationTests"
+               ReferencedContainer = "container:HelloAVFoundation.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A06C5BE61EAC510900DE4FB4"
-               BuildableName = "Chapter1UITests.xctest"
-               BlueprintName = "Chapter1UITests"
-               ReferencedContainer = "container:Chapter1.xcodeproj">
+               BlueprintIdentifier = "A06C5C271EACAC2100DE4FB4"
+               BuildableName = "HelloAVFoundationUITests.xctest"
+               BlueprintName = "HelloAVFoundationUITests"
+               ReferencedContainer = "container:HelloAVFoundation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A06C5BC71EAC510800DE4FB4"
-            BuildableName = "Chapter1.app"
-            BlueprintName = "Chapter1"
-            ReferencedContainer = "container:Chapter1.xcodeproj">
+            BlueprintIdentifier = "A06C5C081EACAC2100DE4FB4"
+            BuildableName = "HelloAVFoundation.app"
+            BlueprintName = "HelloAVFoundation"
+            ReferencedContainer = "container:HelloAVFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A06C5BC71EAC510800DE4FB4"
-            BuildableName = "Chapter1.app"
-            BlueprintName = "Chapter1"
-            ReferencedContainer = "container:Chapter1.xcodeproj">
+            BlueprintIdentifier = "A06C5C081EACAC2100DE4FB4"
+            BuildableName = "HelloAVFoundation.app"
+            BlueprintName = "HelloAVFoundation"
+            ReferencedContainer = "container:HelloAVFoundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A06C5BC71EAC510800DE4FB4"
-            BuildableName = "Chapter1.app"
-            BlueprintName = "Chapter1"
-            ReferencedContainer = "container:Chapter1.xcodeproj">
+            BlueprintIdentifier = "A06C5C081EACAC2100DE4FB4"
+            BuildableName = "HelloAVFoundation.app"
+            BlueprintName = "HelloAVFoundation"
+            ReferencedContainer = "container:HelloAVFoundation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
