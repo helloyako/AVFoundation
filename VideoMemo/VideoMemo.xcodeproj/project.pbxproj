@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0BEB5521EC3F82A00F687EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5511EC3F82A00F687EF /* AppDelegate.swift */; };
+		A0BEB5541EC3F82A00F687EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5531EC3F82A00F687EF /* ViewController.swift */; };
+		A0BEB5571EC3F82A00F687EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BEB5551EC3F82A00F687EF /* Main.storyboard */; };
+		A0BEB5591EC3F82A00F687EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BEB5581EC3F82A00F687EF /* Assets.xcassets */; };
+		A0BEB55C1EC3F82A00F687EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BEB55A1EC3F82A00F687EF /* LaunchScreen.storyboard */; };
+		A0BEB5671EC3F82A00F687EF /* VideoMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5661EC3F82A00F687EF /* VideoMemoTests.swift */; };
+		A0BEB5721EC3F82A00F687EF /* VideoMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5711EC3F82A00F687EF /* VideoMemoUITests.swift */; };
+		A0BEB5851EC3F94B00F687EF /* THMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5821EC3F94B00F687EF /* THMemo.m */; };
+		A0BEB5861EC3F94B00F687EF /* THMemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5841EC3F94B00F687EF /* THMemoCell.m */; };
+		A0BEB58C1EC3F96D00F687EF /* THLevelPair.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5891EC3F96D00F687EF /* THLevelPair.m */; };
+		A0BEB58F1EC3FA7A00F687EF /* THRecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB58E1EC3FA7A00F687EF /* THRecorderController.swift */; };
+		A0BEB5971EC3FC1F00F687EF /* THMeterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5921EC3FC1F00F687EF /* THMeterTable.m */; };
+		A0BEB5981EC3FC1F00F687EF /* THLevelMeterColorThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5941EC3FC1F00F687EF /* THLevelMeterColorThreshold.m */; };
+		A0BEB5991EC3FC1F00F687EF /* THLevelMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BEB5961EC3FC1F00F687EF /* THLevelMeterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0BEB5631EC3F82A00F687EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0BEB5461EC3F82A00F687EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0BEB54D1EC3F82A00F687EF;
+			remoteInfo = VideoMemo;
+		};
+		A0BEB56E1EC3F82A00F687EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0BEB5461EC3F82A00F687EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0BEB54D1EC3F82A00F687EF;
+			remoteInfo = VideoMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0BEB54E1EC3F82A00F687EF /* VideoMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BEB5511EC3F82A00F687EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0BEB5531EC3F82A00F687EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0BEB5561EC3F82A00F687EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0BEB5581EC3F82A00F687EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0BEB55B1EC3F82A00F687EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0BEB55D1EC3F82A00F687EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BEB5621EC3F82A00F687EF /* VideoMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BEB5661EC3F82A00F687EF /* VideoMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMemoTests.swift; sourceTree = "<group>"; };
+		A0BEB5681EC3F82A00F687EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BEB56D1EC3F82A00F687EF /* VideoMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BEB5711EC3F82A00F687EF /* VideoMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMemoUITests.swift; sourceTree = "<group>"; };
+		A0BEB5731EC3F82A00F687EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BEB5801EC3F94A00F687EF /* VideoMemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoMemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0BEB5811EC3F94B00F687EF /* THMemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMemo.h; sourceTree = "<group>"; };
+		A0BEB5821EC3F94B00F687EF /* THMemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMemo.m; sourceTree = "<group>"; };
+		A0BEB5831EC3F94B00F687EF /* THMemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMemoCell.h; sourceTree = "<group>"; };
+		A0BEB5841EC3F94B00F687EF /* THMemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMemoCell.m; sourceTree = "<group>"; };
+		A0BEB5881EC3F96D00F687EF /* THLevelPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLevelPair.h; sourceTree = "<group>"; };
+		A0BEB5891EC3F96D00F687EF /* THLevelPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLevelPair.m; sourceTree = "<group>"; };
+		A0BEB58E1EC3FA7A00F687EF /* THRecorderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THRecorderController.swift; sourceTree = "<group>"; };
+		A0BEB5911EC3FC1F00F687EF /* THMeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMeterTable.h; sourceTree = "<group>"; };
+		A0BEB5921EC3FC1F00F687EF /* THMeterTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMeterTable.m; sourceTree = "<group>"; };
+		A0BEB5931EC3FC1F00F687EF /* THLevelMeterColorThreshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLevelMeterColorThreshold.h; sourceTree = "<group>"; };
+		A0BEB5941EC3FC1F00F687EF /* THLevelMeterColorThreshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLevelMeterColorThreshold.m; sourceTree = "<group>"; };
+		A0BEB5951EC3FC1F00F687EF /* THLevelMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLevelMeterView.h; sourceTree = "<group>"; };
+		A0BEB5961EC3FC1F00F687EF /* THLevelMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLevelMeterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0BEB54B1EC3F82A00F687EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BEB55F1EC3F82A00F687EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BEB56A1EC3F82A00F687EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0BEB5451EC3F82A00F687EF = {
+			isa = PBXGroup;
+			children = (
+				A0BEB5501EC3F82A00F687EF /* VideoMemo */,
+				A0BEB5651EC3F82A00F687EF /* VideoMemoTests */,
+				A0BEB5701EC3F82A00F687EF /* VideoMemoUITests */,
+				A0BEB54F1EC3F82A00F687EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0BEB54F1EC3F82A00F687EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEB54E1EC3F82A00F687EF /* VideoMemo.app */,
+				A0BEB5621EC3F82A00F687EF /* VideoMemoTests.xctest */,
+				A0BEB56D1EC3F82A00F687EF /* VideoMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0BEB5501EC3F82A00F687EF /* VideoMemo */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEB5871EC3F96100F687EF /* Recorder */,
+				A0BEB57F1EC3F93400F687EF /* UI */,
+				A0BEB5511EC3F82A00F687EF /* AppDelegate.swift */,
+				A0BEB5531EC3F82A00F687EF /* ViewController.swift */,
+				A0BEB5551EC3F82A00F687EF /* Main.storyboard */,
+				A0BEB5581EC3F82A00F687EF /* Assets.xcassets */,
+				A0BEB55A1EC3F82A00F687EF /* LaunchScreen.storyboard */,
+				A0BEB55D1EC3F82A00F687EF /* Info.plist */,
+				A0BEB5801EC3F94A00F687EF /* VideoMemo-Bridging-Header.h */,
+			);
+			path = VideoMemo;
+			sourceTree = "<group>";
+		};
+		A0BEB5651EC3F82A00F687EF /* VideoMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEB5661EC3F82A00F687EF /* VideoMemoTests.swift */,
+				A0BEB5681EC3F82A00F687EF /* Info.plist */,
+			);
+			path = VideoMemoTests;
+			sourceTree = "<group>";
+		};
+		A0BEB5701EC3F82A00F687EF /* VideoMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEB5711EC3F82A00F687EF /* VideoMemoUITests.swift */,
+				A0BEB5731EC3F82A00F687EF /* Info.plist */,
+			);
+			path = VideoMemoUITests;
+			sourceTree = "<group>";
+		};
+		A0BEB57F1EC3F93400F687EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEB5901EC3FC1100F687EF /* LevelMeter */,
+				A0BEB5811EC3F94B00F687EF /* THMemo.h */,
+				A0BEB5821EC3F94B00F687EF /* THMemo.m */,
+				A0BEB5831EC3F94B00F687EF /* THMemoCell.h */,
+				A0BEB5841EC3F94B00F687EF /* THMemoCell.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A0BEB5871EC3F96100F687EF /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEB5881EC3F96D00F687EF /* THLevelPair.h */,
+				A0BEB5891EC3F96D00F687EF /* THLevelPair.m */,
+				A0BEB58E1EC3FA7A00F687EF /* THRecorderController.swift */,
+			);
+			name = Recorder;
+			sourceTree = "<group>";
+		};
+		A0BEB5901EC3FC1100F687EF /* LevelMeter */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEB5911EC3FC1F00F687EF /* THMeterTable.h */,
+				A0BEB5921EC3FC1F00F687EF /* THMeterTable.m */,
+				A0BEB5931EC3FC1F00F687EF /* THLevelMeterColorThreshold.h */,
+				A0BEB5941EC3FC1F00F687EF /* THLevelMeterColorThreshold.m */,
+				A0BEB5951EC3FC1F00F687EF /* THLevelMeterView.h */,
+				A0BEB5961EC3FC1F00F687EF /* THLevelMeterView.m */,
+			);
+			name = LevelMeter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0BEB54D1EC3F82A00F687EF /* VideoMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BEB5761EC3F82A00F687EF /* Build configuration list for PBXNativeTarget "VideoMemo" */;
+			buildPhases = (
+				A0BEB54A1EC3F82A00F687EF /* Sources */,
+				A0BEB54B1EC3F82A00F687EF /* Frameworks */,
+				A0BEB54C1EC3F82A00F687EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoMemo;
+			productName = VideoMemo;
+			productReference = A0BEB54E1EC3F82A00F687EF /* VideoMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0BEB5611EC3F82A00F687EF /* VideoMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BEB5791EC3F82A00F687EF /* Build configuration list for PBXNativeTarget "VideoMemoTests" */;
+			buildPhases = (
+				A0BEB55E1EC3F82A00F687EF /* Sources */,
+				A0BEB55F1EC3F82A00F687EF /* Frameworks */,
+				A0BEB5601EC3F82A00F687EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0BEB5641EC3F82A00F687EF /* PBXTargetDependency */,
+			);
+			name = VideoMemoTests;
+			productName = VideoMemoTests;
+			productReference = A0BEB5621EC3F82A00F687EF /* VideoMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0BEB56C1EC3F82A00F687EF /* VideoMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BEB57C1EC3F82A00F687EF /* Build configuration list for PBXNativeTarget "VideoMemoUITests" */;
+			buildPhases = (
+				A0BEB5691EC3F82A00F687EF /* Sources */,
+				A0BEB56A1EC3F82A00F687EF /* Frameworks */,
+				A0BEB56B1EC3F82A00F687EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0BEB56F1EC3F82A00F687EF /* PBXTargetDependency */,
+			);
+			name = VideoMemoUITests;
+			productName = VideoMemoUITests;
+			productReference = A0BEB56D1EC3F82A00F687EF /* VideoMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0BEB5461EC3F82A00F687EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = helloyako;
+				TargetAttributes = {
+					A0BEB54D1EC3F82A00F687EF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BNLR39R86B;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A0BEB5611EC3F82A00F687EF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BNLR39R86B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0BEB54D1EC3F82A00F687EF;
+					};
+					A0BEB56C1EC3F82A00F687EF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BNLR39R86B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0BEB54D1EC3F82A00F687EF;
+					};
+				};
+			};
+			buildConfigurationList = A0BEB5491EC3F82A00F687EF /* Build configuration list for PBXProject "VideoMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0BEB5451EC3F82A00F687EF;
+			productRefGroup = A0BEB54F1EC3F82A00F687EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0BEB54D1EC3F82A00F687EF /* VideoMemo */,
+				A0BEB5611EC3F82A00F687EF /* VideoMemoTests */,
+				A0BEB56C1EC3F82A00F687EF /* VideoMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0BEB54C1EC3F82A00F687EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BEB55C1EC3F82A00F687EF /* LaunchScreen.storyboard in Resources */,
+				A0BEB5591EC3F82A00F687EF /* Assets.xcassets in Resources */,
+				A0BEB5571EC3F82A00F687EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BEB5601EC3F82A00F687EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BEB56B1EC3F82A00F687EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0BEB54A1EC3F82A00F687EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BEB5851EC3F94B00F687EF /* THMemo.m in Sources */,
+				A0BEB5971EC3FC1F00F687EF /* THMeterTable.m in Sources */,
+				A0BEB58F1EC3FA7A00F687EF /* THRecorderController.swift in Sources */,
+				A0BEB5861EC3F94B00F687EF /* THMemoCell.m in Sources */,
+				A0BEB5981EC3FC1F00F687EF /* THLevelMeterColorThreshold.m in Sources */,
+				A0BEB5541EC3F82A00F687EF /* ViewController.swift in Sources */,
+				A0BEB58C1EC3F96D00F687EF /* THLevelPair.m in Sources */,
+				A0BEB5991EC3FC1F00F687EF /* THLevelMeterView.m in Sources */,
+				A0BEB5521EC3F82A00F687EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BEB55E1EC3F82A00F687EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BEB5671EC3F82A00F687EF /* VideoMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BEB5691EC3F82A00F687EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BEB5721EC3F82A00F687EF /* VideoMemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0BEB5641EC3F82A00F687EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0BEB54D1EC3F82A00F687EF /* VideoMemo */;
+			targetProxy = A0BEB5631EC3F82A00F687EF /* PBXContainerItemProxy */;
+		};
+		A0BEB56F1EC3F82A00F687EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0BEB54D1EC3F82A00F687EF /* VideoMemo */;
+			targetProxy = A0BEB56E1EC3F82A00F687EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0BEB5551EC3F82A00F687EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BEB5561EC3F82A00F687EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0BEB55A1EC3F82A00F687EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BEB55B1EC3F82A00F687EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0BEB5741EC3F82A00F687EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0BEB5751EC3F82A00F687EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0BEB5771EC3F82A00F687EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BNLR39R86B;
+				INFOPLIST_FILE = VideoMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloyako.VideoMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoMemo/VideoMemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0BEB5781EC3F82A00F687EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BNLR39R86B;
+				INFOPLIST_FILE = VideoMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloyako.VideoMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoMemo/VideoMemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0BEB57A1EC3F82A00F687EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BNLR39R86B;
+				INFOPLIST_FILE = VideoMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloyako.VideoMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoMemo.app/VideoMemo";
+			};
+			name = Debug;
+		};
+		A0BEB57B1EC3F82A00F687EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BNLR39R86B;
+				INFOPLIST_FILE = VideoMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloyako.VideoMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoMemo.app/VideoMemo";
+			};
+			name = Release;
+		};
+		A0BEB57D1EC3F82A00F687EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BNLR39R86B;
+				INFOPLIST_FILE = VideoMemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloyako.VideoMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VideoMemo;
+			};
+			name = Debug;
+		};
+		A0BEB57E1EC3F82A00F687EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BNLR39R86B;
+				INFOPLIST_FILE = VideoMemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloyako.VideoMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VideoMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0BEB5491EC3F82A00F687EF /* Build configuration list for PBXProject "VideoMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BEB5741EC3F82A00F687EF /* Debug */,
+				A0BEB5751EC3F82A00F687EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BEB5761EC3F82A00F687EF /* Build configuration list for PBXNativeTarget "VideoMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BEB5771EC3F82A00F687EF /* Debug */,
+				A0BEB5781EC3F82A00F687EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0BEB5791EC3F82A00F687EF /* Build configuration list for PBXNativeTarget "VideoMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BEB57A1EC3F82A00F687EF /* Debug */,
+				A0BEB57B1EC3F82A00F687EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0BEB57C1EC3F82A00F687EF /* Build configuration list for PBXNativeTarget "VideoMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BEB57D1EC3F82A00F687EF /* Debug */,
+				A0BEB57E1EC3F82A00F687EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0BEB5461EC3F82A00F687EF /* Project object */;
+}
