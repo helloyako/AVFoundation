@@ -87,6 +87,7 @@ class ViewController: UIViewController {
     func startTimer() {
         timer?.invalidate()
         timer = Timer(timeInterval: 0.5, target: self, selector: #selector(updateTimeDisplay), userInfo: nil, repeats: true)
+        RunLoop.main.add(timer!, forMode: .commonModes)
     }
     
     func stopTimer() {
