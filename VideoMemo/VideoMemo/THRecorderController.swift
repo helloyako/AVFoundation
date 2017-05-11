@@ -64,6 +64,7 @@ class THRecorderController: NSObject {
         
         
         recorder?.delegate = self
+        recorder?.isMeteringEnabled = true
         recorder?.prepareToRecord()
     }
     

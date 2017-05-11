@@ -35,5 +35,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VideoMemo/THRecorderController.swift"
+            timestampString = "516197124.375234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "levels"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VideoMemo.THRecorderController.levels.getter : __ObjC.THLevelPair"
+                  moduleName = "VideoMemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/helloyako/workspace/ios/avfoundation/VideoMemo/VideoMemo/THRecorderController.swift"
+                  timestampString = "516197124.592179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VideoMemo.THRecorderController.(levels.getter : __ObjC.THLevelPair).(implicit closure #1)"
+                  moduleName = "VideoMemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/helloyako/workspace/ios/avfoundation/VideoMemo/VideoMemo/THRecorderController.swift"
+                  timestampString = "516197124.594433"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
